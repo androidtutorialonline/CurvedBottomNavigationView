@@ -6,15 +6,16 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Point;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import android.util.AttributeSet;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class CurvedBottomNavigationView extends BottomNavigationView {
     private Path mPath;
     private Paint mPaint;
 
     /** the CURVE_CIRCLE_RADIUS represent the radius of the fab button */
-    public final int CURVE_CIRCLE_RADIUS = 256 / 4;
+    public final int CURVE_CIRCLE_RADIUS = 256 / 3;
     // the coordinates of the first curve
     public Point mFirstCurveStartPoint = new Point();
     public Point mFirstCurveEndPoint = new Point();

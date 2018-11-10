@@ -10,7 +10,6 @@
     <item
             android:id="@+id/action_schedules"
             android:enabled="true"
-            android:icon="@drawable/ic_add_to_queue_black_24dp"
             android:title="Page2"
             app:showAsAction="ifRoom"/>
     <item
