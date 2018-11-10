@@ -14,6 +14,7 @@ public class CurvedBottomNavigationView extends BottomNavigationView {
     private Path mPath;
     private Paint mPaint;
 
+
     /** the CURVE_CIRCLE_RADIUS represent the radius of the fab button */
     public final int CURVE_CIRCLE_RADIUS = 256 / 3;
     // the coordinates of the first curve
